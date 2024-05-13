@@ -18,7 +18,7 @@ app.use("/", router);
 
 mongoose.connect("mongodb+srv://christin:ouHLMYZXHEP6B58i@cluster0.golc87t.mongodb.net/youtube-db")
     .then(() => {
-        console.log("Connected to MongoDB");
+        console.log("Connected to MongoDB This is a new change");
     })
     .catch((error) => {
         console.log("Error connecting to MongoDB:", error);
